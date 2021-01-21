@@ -9,9 +9,9 @@ airdrop_live = True
 
 # Telegram
 token           = '1411970910:AAE7vZ6PgvVcglkvFNmK8o6Z8f7wrgaEnXM'        # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
-log_channel     = 0                         # Channel ID. Example: -1001355597767
-admins          = []                        # Telegram User ID's. Admins are able to execute command "/airdroplist"
-airdrop_cap     = 100                       # Max airdrop submissions that are being accepted
+log_channel     = -1001309737901                        # Channel ID. Example: -1001355597767
+admins          = [720679955]                        # Telegram User ID's. Admins are able to execute command "/airdroplist"
+airdrop_cap     = 10000                      # Max airdrop submissions that are being accepted
 
 # MySQL Database
 mysql_host = 'localhost'
